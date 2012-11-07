@@ -71,4 +71,8 @@ echo "24724 END"
 
 cd $TOPDIR
 
+#ugly hack to fix the compilation
+mkdir -p out/target/product/tenderloin/obj/SHARED_LIBRARIES/libcamera_intermediates/
+touch out/target/product/tenderloin/obj/SHARED_LIBRARIES/libcamera_intermediates/export_includes
+
 echo "Patching done"

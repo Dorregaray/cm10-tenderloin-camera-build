@@ -13,6 +13,9 @@ http://goo.gl/Zpht8
 ```
 Stop before launching "brunch tenderloin" command.
 
+If you have already downloaded the CM10 repo make sure you run make clean
+to cleanup the sources before proceeding.
+
 
 2. Download this repository to ~/android:
 ```
