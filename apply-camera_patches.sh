@@ -8,9 +8,9 @@ echo "Patching frameworks"
 cd $TOPDIR/frameworks/native
 
 #htc camera overlay
-echo "26080 BEGIN"
-git pull http://review.cyanogenmod.org/CyanogenMod/android_frameworks_native refs/changes/80/26080/1
-echo "26080 END"
+echo "19964 BEGIN"
+git pull http://review.cyanogenmod.org/CyanogenMod/android_frameworks_native refs/changes/64/19964/1
+echo "19964 END"
 
 cd $TOPDIR/frameworks/av
 
