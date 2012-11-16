@@ -33,25 +33,18 @@ git clone -b ics git://github.com/Dorregaray/hp-kernel-tenderloin.git tenderloin
 (yes, we use ics branch)
 
 
-4. Replace the proprietary camera libs with the ones from CM7a2.1:
-```
-cp ~/android/cm9-tenderloin-camera-build/proprietary/libcamera.so ~/android/system/vendor/hp/tenderloin/proprietary/lib
-cp ~/android/cm9-tenderloin-camera-build/proprietary/liboemcamera.so ~/android/system/vendor/hp/tenderloin/proprietary/lib
-```
-
-
-5. Apply the required camera patches:
+4. Apply the required camera patches:
 ```
 cd ~/android/system
 sh ~/android/cm10-tenderloin-camera-build/apply-camera_patches.sh
 ```
 
 
-6. Now you can start the build:
+5. Now you can start the build:
 ```
 cd ~/android/system
 brunch tenderloin
 ```
 
-7. Load the build onto the device as usual and you're done
+6. Load the build onto the device as usual and you're done
 
