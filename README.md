@@ -24,27 +24,18 @@ git clone git://github.com/Dorregaray/cm10-tenderloin-camera-build.git
 ```
 
 
-3. Enter the ~/android/system/kernel/hp directory and replace the kernel sources:
-```
-cd ~/android/system/kernel/hp
-mv tenderloin tenderloin.orig
-git clone -b ics git://github.com/Dorregaray/hp-kernel-tenderloin.git tenderloin
-```
-(yes, we use ics branch)
-
-
-4. Apply the required camera patches:
+3. Apply the required camera patches:
 ```
 cd ~/android/system
 sh ~/android/cm10-tenderloin-camera-build/apply-camera_patches.sh
 ```
 
 
-5. Now you can start the build:
+4. Now you can start the build:
 ```
 cd ~/android/system
 brunch tenderloin
 ```
 
-6. Load the build onto the device as usual and you're done
+5. Load the build onto the device as usual and you're done
 
